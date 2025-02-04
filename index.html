@@ -1,0 +1,490 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Elio Vinciguerra</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/unicons.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/button.css">
+
+    <!-- MAIN STYLE -->
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    
+<!-- Tooplate 2115 Marvel https://www.tooplate.com/view/2115-marvel -->
+  </head>
+  <body>
+
+    <!-- MENU -->
+    <nav class="navbar navbar-expand-sm navbar-light">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><i class='uil uil-user'></i> Elio </a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link"><span data-hover="About">About</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#project" class="nav-link"><span data-hover="Projects">Projects</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#resume" class="nav-link"><span data-hover="Resume">Resume</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#publications" class="nav-link"><span data-hover="Publications">Publications</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link"><span data-hover="Contact">Contact</span></a>
+                    </li>
+                </ul>
+            
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <div id="color-mode-toggle" class="color-mode d-lg-flex justify-content-center align-items-center">
+                            <i class="color-mode-icon me-2"></i>
+                            <span id="color-mode-text" class="color-mode-label">Dark Mode</span>
+                        </div>
+                    </li>
+                </ul>
+
+                <script>
+                    document.addEventListener("DOMContentLoaded", function () {
+                        const toggleButton = document.getElementById("color-mode-toggle");
+                        const colorModeText = document.getElementById("color-mode-text");
+                        const body = document.body;
+                
+                        if (body.classList.contains("dark-mode")) {
+                            colorModeText.textContent = "Light Mode";
+                        } else {
+                            colorModeText.textContent = "Dark Mode";
+                        }
+                
+                        toggleButton.addEventListener("click", function () {
+                            if (body.classList.contains("dark-mode")) {
+                                colorModeText.textContent = "Light Mode";
+                            } else {
+                                colorModeText.textContent = "Dark Mode";
+                            }
+                        });
+                    });
+                </script>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ABOUT -->
+    <section class="about full-screen d-lg-flex justify-content-center align-items-center" id="about">
+        <div class="container">
+            <div class="row">
+                
+                <div class="col-lg-7 col-md-12 col-12 d-flex align-items-center">
+                    <div class="about-text">
+                        <h1 class="animated animated-text">
+                            <span class="mr-2">Hey folks, I'm</span>
+                                <div class="animated-info">
+                                    <span class="animated-item">Elio Vinciguerra</span>
+                                    <span class="animated-item">a Computer Engineer</span>
+                                    <span class="animated-item">a PhD Student</span>
+                                </div>
+                        </h1>
+
+                        <p>Passionate Computer Engineer and PhD student specializing in High-Performance Computing (HPC). I thrive on solving complex computational challenges, optimizing performance, and pushing the limits of scalable systems. With a strong foundation in software engineering and parallel computing, I am driven by innovation and efficiency in advanced computing architectures.</p>
+                        
+                        <div class="custom-btn-group mt-4">
+                          <a class="space_btn" href="./files/resume.pdf" class="btn mr-lg-2 custom-btn"><i class='uil uil-file-alt'></i> Download Resume</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-5 col-md-12 col-12">
+                    <div class="about-image svg">
+                        <img src="images/propic/propic.png" class="img-fluid" alt="propic image">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+<!-- PROJECTS -->
+<section class="project py-5" id="project">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-11 text-center mx-auto col-12">
+                <div class="col-lg-8 mx-auto">
+                    <h2>Activities and Projects</h2>
+                </div>
+
+                <div class="owl-carousel owl-theme">
+                    <div class="item">
+                        <div class="project-info">
+                            <img src="images/project/project4.svg" class="img-fluid" alt="project image" data-dark-src="images/project/project4_dark.svg">
+                            <p class="project-description">I have developed expertise in designing fault detection and mitigation systems for RISC-V architectures, focusing on advanced algorithms like LSTM-Autoencoders and Proximal Policy Optimization, along with utilizing microarchitectural simulators such as gem5.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="item">
+                        <div class="project-info">
+                            <img src="images/project/project3.svg" class="img-fluid" alt="project image" data-dark-src="images/project/project3_dark.svg">
+                            <p class="project-description">I have gained experience in selecting and optimizing domain-specific accelerators (DSAs), such as SIMBA, for efficient deep neural network (DNN) inference in wireless IoT devices, ensuring resource-efficient implementations that meet strict latency and performance requirements in industrial applications.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="item">
+                        <div class="project-info">
+                            <img src="images/project/project2.svg" class="img-fluid" alt="project image" data-dark-src="images/project/project2_dark.svg">
+                            <p class="project-description">I have developed expertise in indoor localization (the focus of my master’s thesis) through the application of Machine Learning algorithms, Neural Networks, and Particle Filters.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="item">
+                        <div class="project-info">
+                            <img src="images/project/project1.svg" class="img-fluid" alt="project image" data-dark-src="images/project/project1_dark.svg">
+                            <p class="project-description">Through the various projects undertaken during my studies, I have acquired a solid understanding of both the theoretical and practical aspects of numerous programming languages.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script>
+    function updateImageSources() {
+        const isDarkMode = document.body.classList.contains('dark-mode');
+        const images = document.querySelectorAll('img[data-dark-src]');
+
+        images.forEach(img => {
+            const darkSrc = img.getAttribute('data-dark-src');
+            const lightSrc = img.getAttribute('src');
+            
+            if (isDarkMode) {
+                if (!img.hasAttribute('data-original-src')) {
+                    img.setAttribute('data-original-src', lightSrc);
+                }
+                img.setAttribute('src', darkSrc);
+            } else {
+                const originalSrc = img.getAttribute('data-original-src');
+                if (originalSrc) {
+                    img.setAttribute('src', originalSrc);
+                }
+            }
+        });
+    }
+    window.addEventListener('load', updateImageSources);
+
+    const darkModeObserver = new MutationObserver(updateImageSources);
+    darkModeObserver.observe(document.body, { attributes: true, attributeFilter: ['class'] });
+</script>
+
+    <!-- FEATURES -->
+    <section class="resume py-5 d-lg-flex justify-content-center align-items-center" id="resume">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-6 col-12">
+                  <h2 class="mb-4">Experiences</h2>
+
+                    <div class="timeline">
+                        <div class="timeline-wrapper">
+                             <div class="timeline-yr">
+                                  <span>2024</span>
+                             </div>
+                             <div class="timeline-info">
+                                  <h3><span>Computer Architecture Course Teaching Assistance</span><small class="small-text">Ongoing</small></h3>
+                                  <p class="compress">Recipient of the collaboration with <a rel="nofollow" href="https://www.unict.it/">University of Catania</a> aimed at promoting teaching assistance activities for the Computer Architecture course for the 2023/2024 academic year, with a duration of 100 hours.</p>
+                             </div>
+                        </div>
+
+                        <div class="timeline-wrapper">
+                            <div class="timeline-yr">
+                                <span>2023</span>
+                            </div>
+                            <div class="timeline-info">
+                                <h3><span>Fundamentals of Computer Science Course Teaching Assistance</span><small class="small-text">Ongoing</small></h3>
+                                <p class="compress">Recipient of the collaboration with <a rel="nofollow" href="https://www.unict.it/">University of Catania</a> aimed at promoting teaching assistance activities for the Fundamentals of Computer Science course for the 2023/2024 academic year, with a duration of 50 hours, and renewed for the 2024/2025 academic year for an additional 50 hours.</p>
+                            </div>
+                        </div>
+
+                        <div class="timeline-wrapper">
+                            <div class="timeline-yr">
+                                <span>2023</span>
+                            </div>
+                            <div class="timeline-info">
+                                <h3><span>IoT Systems and Technologies Course Teaching Assistance</h3>
+                                <p class="compress">Recipient of the collaboration with <a rel="nofollow" href="https://www.unict.it/">University of Catania</a> aimed at promoting teaching assistance activities for the IoT Systems and Technologies course for the 2023/2024 academic year, with a duration of 100 hours.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="timeline-wrapper">
+                            <div class="timeline-yr">
+                                <span>2017</span>
+                            </div>
+                            <div class="timeline-info">
+                                <h3><span>Intern at <a rel="nofollow" href="https://www.flazio.com/it/">Flazio S.r.l.</a></span></h3>
+                                <p class="compress">Web Design and development using the Flazio platform. Website optimization techniques and social media integration.</p>
+                            </div>
+                        </div>
+
+                        <div class="timeline-wrapper">
+                          <div class="timeline-yr">
+                              <span>2017</span>
+                          </div>
+                          <div class="timeline-info">
+                              <h3><span>Intern at <a rel="nofollow" href="https://www.baxenergy.com/">BaxEnergy S.r.l</a></span></h3>
+                              <p class="compress">Quality control and software validation. Ensured the reliability and performance of company applications.</p>
+                          </div>
+                      </div>
+
+                      <div class="timeline-wrapper">
+                        <div class="timeline-yr">
+                            <span>2016</span>
+                        </div>
+                        <div class="timeline-info">
+                            <h3><span>Cultural Exchange Program at Polytechnic Institute Jin Yu</span></h3>
+                            <p class="compress">International cultural exchange with the Beijing Polytechnic Institute in Beijing, China. Immersive experience in Chinese academic and technological environments.</p>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-12">
+                  <h2 class="mb-4 mobile-mt-2">Educations</h2>
+
+                    <div class="timeline">
+                        <div class="timeline-wrapper">
+                             <div class="timeline-yr">
+                                  <span>2023</span>
+                             </div>
+                             <div class="timeline-info">
+                                  <h3><span>Ph.D. in Systems Engineering, Energy, Computer Science, and Telecommunications</span><small class="small-text">Ongoing</small></h3>
+                                  <p><a rel="nofollow" href="https://www.unict.it/">University of Catania</a>, Italy.</p>
+                             </div>
+                        </div>
+
+                        <div class="timeline-wrapper">
+                            <div class="timeline-yr">
+                                <span>2021</span>
+                            </div>
+                            <div class="timeline-info">
+                                <h3><span>Master’s Degree in Computer Engineering</span></h3>
+                                <p><a rel="nofollow" href="https://www.unict.it/">University of Catania</a>, Italy. <br>Final grade: 108/110. <br>Thesis: <i>Analysis and Optimization of Indoor Localization Algorithms for HPC Architectures.</i></p>
+                            </div>
+                        </div>
+                        
+                        <div class="timeline-wrapper">
+                            <div class="timeline-yr">
+                                <span>2018</span>
+                            </div>
+                            <div class="timeline-info">
+                                <h3><span>Bachelor’s Degree in Computer Engineering</span></h3>
+                                <p><a rel="nofollow" href="https://www.unict.it/">University of Catania</a>, Italy. <br>Final grade: 95/110. <br>Thesis: <i>Evaluation of the Energy-Latency Trade-oﬀ in Deep Neural Network Accelerators.</i></p>
+                            </div>
+                        </div>
+                        <div class="timeline-wrapper">
+                          <div class="timeline-yr">
+                              <span>2013</span>
+                          </div>
+                          <div class="timeline-info">
+                              <h3><span>Diploma in Computer Science and Telecommunications</span></h3>
+                              <p><a rel="nofollow" href="https://www.iismarconi-mangano.edu.it/">I.I.S I.T. G. Marconi</a>, Italy. <br>Final grade: 94/100.</p>
+                          </div>
+                      </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    
+<!-- Publications -->
+<section class="resume py-5 d-lg-flex justify-content-center align-items-center">
+    <div class="container">
+        <div class="resume py-5 d-lg-flex justify-content-center align-items-center mx-auto" id="publications">
+            <h2>Publications</h2>
+          </div>
+      <div class="row justify-content-center align-items-center" id="publications_list"></div>
+    </div>
+  </section>
+  <script src="./data/publications.js"></script>
+    <script>
+        const container = document.querySelector("#publications_list");
+
+        publications.forEach(pub => {
+            const wrapper = document.createElement("div");
+            wrapper.className = "timeline-wrapper";
+
+            const yearDiv = document.createElement("div");
+            yearDiv.className = "timeline-yr";
+            yearDiv.innerHTML = `<span>${pub.year}</span>`;
+
+            const infoDiv = document.createElement("div");
+            infoDiv.className = "timeline-info";
+            infoDiv.innerHTML = `
+                <h3><span>${pub.title}</span> <small class="small-text">${pub.status}</small></h3>
+                <p class="compress">${pub.reference}</p>
+            `;
+
+            wrapper.appendChild(yearDiv);
+            wrapper.appendChild(infoDiv);
+            container.appendChild(wrapper);
+        });
+        function applyCompression() {
+            const isSmallScreen = window.innerWidth < 580;
+
+            document.querySelectorAll(".compress").forEach(paragraph => {
+                // Rimuove eventuali bottoni esistenti per evitare duplicazioni
+                const existingButton = paragraph.nextElementSibling;
+                if (existingButton && existingButton.classList.contains("expand-btn")) {
+                    existingButton.remove();
+                }
+
+                if (isSmallScreen) {
+                    paragraph.classList.add("compress-text");
+                    paragraph.style.whiteSpace = "nowrap";
+                    paragraph.style.overflow = "hidden";
+                    paragraph.style.textOverflow = "ellipsis";
+
+                    // Crea il bottone per espandere/comprimere
+                    const expandButton = document.createElement("button");
+                    expandButton.className = "expand-btn";
+                    expandButton.style.display = "block";  // Impostiamo il bottone come blocco
+                    expandButton.style.marginTop = "10px"; // Aggiunge uno spazio tra il paragrafo e il bottone
+                    expandButton.style.width = "100%"; // Impostiamo la larghezza del bottone uguale a quella del paragrafo
+                    expandButton.style.textAlign = "center";  // Centra il contenuto all'interno del bottone
+
+                    // Crea l'immagine della freccia (aggiorna il percorso con il tuo relativo)
+                    const arrowImage = document.createElement("img");
+                    arrowImage.src = "./images/logos/arrow-down-image.png";  // Usa il percorso relativo per l'immagine freccia giù
+                    arrowImage.alt = "Freccia giù";
+                    arrowImage.style.width = "20px"; // Puoi regolare la dimensione dell'immagine
+                    arrowImage.style.display = "inline"; // Lascia l'immagine come inline per il centro
+
+                    expandButton.appendChild(arrowImage);
+
+                    expandButton.onclick = function () {
+                        paragraph.classList.toggle("expanded");
+
+                        if (paragraph.classList.contains("expanded")) {
+                            paragraph.style.whiteSpace = "normal";
+                            paragraph.style.overflow = "visible";
+                            paragraph.style.textOverflow = "clip";
+                            arrowImage.src = "./images/logos/arrow-up-image.png";  // Cambia l'immagine in freccia su
+                        } else {
+                            paragraph.style.whiteSpace = "nowrap";
+                            paragraph.style.overflow = "hidden";
+                            paragraph.style.textOverflow = "ellipsis";
+                            arrowImage.src = "./images/logos/arrow-down-image.png";  // Torna alla freccia giù
+                        }
+                    };
+
+                    // Inserisce il bottone sotto il paragrafo
+                    paragraph.after(expandButton);
+                } else {
+                    // Rimuove qualsiasi stile di compressione su schermi grandi
+                    paragraph.classList.remove("compress-text", "expanded");
+                    paragraph.style.whiteSpace = "normal";
+                    paragraph.style.overflow = "visible";
+                    paragraph.style.textOverflow = "clip";
+                }
+            });
+        }
+
+        // Applica la funzione al caricamento della pagina
+        applyCompression();
+
+        // Riadatta il contenuto quando la finestra viene ridimensionata
+        window.addEventListener("resize", applyCompression);
+    </script>
+
+    <!-- CONTACT -->
+    <section class="contact py-5" id="contact">
+      <div class="container">
+        <div class="row">
+          
+          <div class="col-lg-5 mr-lg-5 col-12">
+            <div class="google-map w-100">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d101303.38032095264!2d14.994945739490765!3d37.49068241628113!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1313e2dd761525b5%3A0x58fe876151c83cf0!2sCatania%20CT!5e0!3m2!1sit!2sit!4v1738512936139!5m2!1sit!2sit" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+
+            <div class="contact-info d-flex justify-content-between align-items-center py-4 px-lg-5">
+                <div class="contact-info-item">
+                  <h3 class="mb-3 text-white">Say hello</h3>
+                  <p><a href="mailto:elio.vinciguerra@phd.unict.it">elio.vinciguerra@phd.unict.it</a></p>
+                </div>
+
+                <ul class="social-links">
+                     <li><a href="https://www.linkedin.com/in/eliovinciguerra" class="fa-brands fa-linkedin-in" data-placement="left" title="Linkedin"></a></li>
+                     <li><a href="https://www.instagram.com/simply.elio" class="fa-brands fa-instagram" data-toggle="tooltip" data-placement="left" title="Instagram"></a></li>
+                     <li><a href="https://github.com/eliovinciguerra" class="fa-brands fa-github" data-toggle="tooltip" data-placement="left" title="Github"></a></li>
+                </ul>
+            </div>
+          </div>
+
+          <div class="col-lg-6 col-12">
+            <div class="contact-form">
+                <h2 class="mb-4">Interested to work together? Let's talk</h2>
+        
+                <form id="contact-form" method="get" action="mailto:elio.vinciguerra@phd.unict.it">
+                    <div class="row">
+                        <div class="col-12">
+                            <input type="subject" class="form-control" name="subject" placeholder="Object" id="subject" required>
+                        </div>
+        
+                        <div class="col-12">
+                            <textarea name="body" rows="6" class="form-control" id="body" placeholder="Message" required></textarea>
+                        </div>
+        
+                        <div class="ml-lg-auto col-lg-5 col-12">
+                            <input type="submit" class="form-control submit-btn" value="Send Button">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+     <footer class="footer py-5">
+          <div class="container">
+               <div class="row">
+
+                    <div class="col-lg-12 col-12">                                
+                      <p class="copyright-text text-center"> Copyright &copy; <span id="year"></span>. All rights reserved.</p>
+                      <script> document.getElementById("year").textContent = new Date().getFullYear(); </script>
+                    </div>
+                    
+               </div>
+          </div>
+     </footer>
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/Headroom.js"></script>
+    <script src="js/jQuery.headroom.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/smoothscroll.js"></script>
+    <script src="js/custom.js"></script>
+
+  </body>
+</html>
