@@ -1,0 +1,23 @@
+@media (min-width: 991px) {
+    .about-image.d-lg-none {
+        display: none;
+    }
+
+    .about-image.d-lg-block {
+        display: block;
+    }
+}
+
+@media (max-width: 991px) {
+    .about-image.d-lg-none {
+        display: block;
+    }
+
+    .about-image.d-lg-block {
+        display: none;
+    }
+
+    .about-image.svg {
+        margin-top: -13px;
+    }
+}

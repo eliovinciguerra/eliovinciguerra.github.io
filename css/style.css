@@ -304,6 +304,10 @@ h3, b, strong {
   position: relative;
 }
 
+.dark-mode .navbar-toggler-icon {
+  background: #FFFFFF;
+}
+
 .dark-mode .about-image img {
   filter: brightness(80%);
 }
