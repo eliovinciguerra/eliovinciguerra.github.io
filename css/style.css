@@ -78,7 +78,7 @@ a:hover {
 }
 
 p {
-  font-size: 18px;
+  /* font-size: 18px; */
   font-weight: 300;
   line-height: 1.5;
   color: #5b5b5b;
@@ -664,6 +664,14 @@ h3, b, strong {
 	.animated-info {
 		min-width: 200px;
 	}
+
+  h3 {  
+    font-size: 1.2rem;  
+  }
+
+  .timeline-info .small-text {
+    font-size: 0.9rem;
+  }
 
   .compress-text {
     white-space: nowrap;
