@@ -205,17 +205,17 @@ h3, b, strong {
   right: 0;
   left: 0;
   z-index: 999999;
-  will-change: transform;
+  /* will-change: transform;                          // Decommenta per la navbar che sparisce allo scroll */  
   transition: transform 200ms linear;
 }
 
-.navbar[class*="-unpinned"] {
+/* .navbar[class*="-unpinned"] {                      // Decommenta per la navbar che sparisce allo scroll
   transform: translate(0, -150%);
 }
 
 .navbar[class*="-pinned"] {
   transform: translate(0, 0);
-}
+} */
 
 .navbar[class*="headroom--not-top"] {
   background: var(--background);

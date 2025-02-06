@@ -39,6 +39,7 @@ function updateImageSources() {
         }
     });
 }
+
 window.addEventListener('load', updateImageSources);
 
 const darkModeObserver = new MutationObserver(updateImageSources);
