@@ -1,15 +1,9 @@
 const publications = [
   {
       year: 2025,
-      title: 'Resource-Efficient Deployment of Reinforcement Learning-based MAC Protocols for Industrial IoT Networks',
-      reference: 'L. Miuccio, S. Riolo, E. Russo, E. Vinciguerra, G. Ascia, M. Palesi, D. Panno',
-      status: 'Under review'
-  },
-  {
-      year: 2025,
       title: 'An Anomaly Detection Model for RISC-V in Automotive Applications: A Domain-Specific Accelerator Perspective',
-      reference: 'E. Vinciguerra, E. Russo, M. Palesi, G. Ascia',
-      status: 'To be presented'
+      reference: 'E. Vinciguerra, E. Russo, M. Palesi, G. Ascia, "An Anomaly Detection Model for RISC-V in Automotive Applications: A Domain-Specific Accelerator Perspective," 2025 33rd Euromicro International Conference on Parallel, Distributed and Network-Based Processing (PDP), Turin, Italy, 2025, pp. 317-320, doi: 10.1109/PDP66500.2025.00051.',
+      status: ''
   },
   {
       year: 2024,
