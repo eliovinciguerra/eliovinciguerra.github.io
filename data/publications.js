@@ -1,5 +1,11 @@
 const publications = [
   {
+    year: 2025,
+    title: 'TeleSABRE: Layout Synthesis in Multi-Core Quantum Systems with Teleport Interconnect',
+    reference: 'E. Russo, E. Vinciguerra, M. Palesi, D. Patti, G. Ascia, and V. Catania, “TeleSABRE: Layout Synthesis in Multi-Core Quantum Systems with Teleport Interconnect,” arXiv preprint arXiv:2505.08928, 2025',
+    status: 'preview'
+  },
+  {
       year: 2025,
       title: 'An Anomaly Detection Model for RISC-V in Automotive Applications: A Domain-Specific Accelerator Perspective',
       reference: 'E. Vinciguerra, E. Russo, M. Palesi, G. Ascia, "An Anomaly Detection Model for RISC-V in Automotive Applications: A Domain-Specific Accelerator Perspective," 2025 33rd Euromicro International Conference on Parallel, Distributed and Network-Based Processing (PDP), Turin, Italy, 2025, pp. 317-320, doi: 10.1109/PDP66500.2025.00051.',
