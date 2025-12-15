@@ -1,9 +1,15 @@
 const publications = [
   {
     year: 2025,
+    title: 'Improving Machine Learning Anomaly Detection for Safety-Critical RISC-V Automotive Systems',
+    reference: 'E. Vinciguerra, M. Palesi, and G. Ascia, "Improving Machine Learning Anomaly Detection for Safety-Critical RISC-V Automotive Systems," in Proceedings of the CPS Summer School PhD Workshop 2024, C. Pilato et al., Eds., vol. 4106. Aachen, Germany: CEUR-WS.org, 2024. [Online]. Available: https://ceur-ws.org/Vol-4106/short1.pdf.',
+    status: '',
+  },
+  {
+    year: 2025,
     title: 'TeleSABRE: Layout Synthesis in Multi-Core Quantum Systems with Teleport Interconnect',
-    reference: 'E. Russo, E. Vinciguerra, M. Palesi, D. Patti, G. Ascia, and V. Catania, “TeleSABRE: Layout Synthesis in Multi-Core Quantum Systems with Teleport Interconnect,” arXiv preprint arXiv:2505.08928, 2025',
-    status: 'preview'
+    reference: 'E. Russo, E. Vinciguerra, M. Palesi, D. Patti, G. Ascia and V. Catania, "TeleSABRE: Heuristic Layout Synthesis in Multi-Core Quantum Systems with Teleport Interconnect," 2025 IEEE International Conference on Quantum Computing and Engineering (QCE), Albuquerque, NM, USA, 2025, pp. 749-758, doi: 10.1109/QCE65121.2025.00086.',
+    status: ''
   },
   {
       year: 2025,
