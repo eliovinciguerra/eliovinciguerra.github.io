@@ -1,8 +1,14 @@
 const publications = [
   {
+    year: 2026,
+    title: 'CHAOS: Controlled Hardware fAult injectOr System for gem5',
+    reference: 'E. Vinciguerra, E. Russo, G. Ascia, M. Palesi "CHAOS: Controlled Hardware fAult injectOr System for gem5," in Proceedings of the CPS Summer School PhD Workshop 2024, C. Pilato et al., Eds., vol. 4106. Aachen, Germany: CEUR-WS.org, 2024. [Online]. Available: https://ceur-ws.org/Vol-4106/short1.pdf.',
+    status: 'preprint',
+  },
+  {
     year: 2025,
     title: 'Improving Machine Learning Anomaly Detection for Safety-Critical RISC-V Automotive Systems',
-    reference: 'E. Vinciguerra, M. Palesi, and G. Ascia, "Improving Machine Learning Anomaly Detection for Safety-Critical RISC-V Automotive Systems," in Proceedings of the CPS Summer School PhD Workshop 2024, C. Pilato et al., Eds., vol. 4106. Aachen, Germany: CEUR-WS.org, 2024. [Online]. Available: https://ceur-ws.org/Vol-4106/short1.pdf.',
+    reference: 'E. Vinciguerra, M. Palesi, and G. Ascia, ”Improving Machine Learning Anomaly Detection for Safety-Critical RISC-V Automotive Systems,” in Proceedings of the CPS Summer School PhD Workshop 2025, C. Pilato et al., Eds., vol. 4106. Aachen, Germany: CEUR-WS.org, 2025. [Online]. Available: https://ceur-ws.org/Vol-4106/short1.pdf.',
     status: '',
   },
   {
