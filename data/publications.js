@@ -1,6 +1,18 @@
 const publications = [
   {
     year: 2026,
+    title: "SPACE: Safety-critical Performance-counter Adaptive Control Engine for Anomaly Mitigation via Deep Reinforcement Learning",
+    reference: 'E. Vinciguerra, N. Nosrati, G. Ascia, M. Palesi, and A. Hemani, "SPACE: Safety-critical Performance-counter Adaptive Control Engine for Anomaly Mitigation via Deep Reinforcement Learning," in IEEE Transactions on Very Large Scale Integration (VLSI) Systems, 2026, doi: 10.1109/TVLSI.2026.3722739.',
+    status: ""
+  },
+  {
+    year: 2026,
+    title: "COSMA: Communication aware Optimization of Fermionic Simulation Kernels for Modular Quantum Architectures",
+    reference: 'E. Russo, F. G. Blanco, E. Vinciguerra, D. Patti, G. Ascia and M. Palesi, "COSMA: Communication aware Optimization of Fermionic Simulation Kernels for Modular Quantum Architectures" (Accepted in IEEE Quantum Week – the IEEE International Conference on Quantum Computing and Engineering (QCE), September 2026). Also available: arXiv: arXiv:2607.09381. [Online, Submitted on 10 July 2026]. Available: https://doi.org/10.48550/arXiv.2607.09381.',
+    status: "to be presented",
+  },
+  {
+    year: 2026,
     title: "SAFER: Self-Attentive Feature Extraction and Reduction",
     reference:
       'E. Vinciguerra, G. Siracusano, G. Ascia and M. Palesi, "SAFER: Self-Attentive Feature Extraction and Reduction," in IEEE Access, vol. 14, pp. 85695-85708, 2026, doi: 10.1109/ACCESS.2026.3700810.',

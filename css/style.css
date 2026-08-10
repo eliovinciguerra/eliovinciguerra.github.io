@@ -205,7 +205,7 @@ h3, b, strong {
   right: 0;
   left: 0;
   z-index: 999999;
-  /* will-change: transform;                          // Decommenta per la navbar che sparisce allo scroll */  
+  /* will-change: transform;                          // Decommenta per la navbar che sparisce allo scroll */
   transition: transform 200ms linear;
 }
 
@@ -593,8 +593,8 @@ h3, b, strong {
 
   .img-fluid{
     max-width: 70%;
-    height: auto; 
-    display: block; 
+    height: auto;
+    display: block;
     margin: 0 auto;
   }
 
@@ -622,7 +622,7 @@ h3, b, strong {
   .color-mode-label {
     color: rgba(0, 0, 0, 0.5);
   }
-  
+
   .dark-mode .color-mode-label {
     color: rgba(255, 255, 255, 0.8);
   }
@@ -669,8 +669,8 @@ h3, b, strong {
 		min-width: 200px;
 	}
 
-  h3 {  
-    font-size: 1.2rem;  
+  h3 {
+    font-size: 1.2rem;
   }
 
   .timeline-info .small-text {
@@ -757,4 +757,12 @@ h3, b, strong {
   .project-info img {
     height: 350px;
   }
+}
+
+@media (max-width: 767px) {
+    .timeline-info p {
+        text-align: left;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+    }
 }
