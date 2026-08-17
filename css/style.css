@@ -22,13 +22,23 @@ p {
   padding: 8rem 0;
 }
 
+.section-padding {
+    padding: 5rem 0; /* Spazio abbondante per Desktop */
+}
+
+@media (max-width: 767px) {
+    .section-padding {
+        padding: 3rem 0;
+    }
+}
+
 .compress-text {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
     cursor: pointer;
     display: inline-block;
-    width: 85%;
+    width: 100%;
     vertical-align: middle;
     transition: all 0.3s ease-in-out;
 }
@@ -663,6 +673,12 @@ h3, b, strong {
   .navbar-expand-sm .navbar-nav .nav-link {
     padding: 3px 20px;
   }
+
+  .timeline-info {
+      display: block;
+      width: calc(100% - 8em);
+      max-width: none;
+    }
 }
 @media (max-width: 580px) {
 	.animated-info {

@@ -18,7 +18,6 @@
     <!-- MAIN STYLE -->
     <link rel="stylesheet" href="css/style.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
-    <!-- Tooplate 2115 Marvel https://www.tooplate.com/view/2115-marvel -->
     </head>
     <body>
 
@@ -65,7 +64,7 @@
     <script src='js/closing_mobile_menu.js'></script>
 
     <!-- ABOUT -->
-    <section class="about full-screen d-lg-flex justify-content-center align-items-center" id="about">
+    <section class="about section-padding" id="about">
         <div class="container">
             <div class="row">
 
@@ -84,7 +83,7 @@
                                 <img id="image-small" src="images/propic/propic.webp" class="img-fluid" alt="propic image (small screen)">
                             </div>
                         </div>
-                        <p>Passionate Computer Engineer and PhD candidate specialized in High-Performance Computing (HPC). I thrive on solving complex computational challenges, optimizing performance, and pushing the limits of scalable systems. With a strong foundation in software engineering and parallel computing, I am driven by innovation and efficiency in advanced computing architectures.</p>
+                        <p class="px-3 px-lg-0"> Passionate Computer Engineer and PhD candidate specialized in High-Performance Computing (HPC). I thrive on solving complex computational challenges, optimizing performance, and pushing the limits of scalable systems. With a strong foundation in software engineering and parallel computing, I am driven by innovation and efficiency in advanced computing architectures.</p>
                         <div class="custom-btn-group mt-4">
                             <a class="space_btn" href="./files/resume.pdf" class="btn mr-lg-2 custom-btn"><i class='uil uil-file-alt'></i> Download Resume</a>
                         </div>
@@ -100,7 +99,7 @@
     </section>
 
     <!-- PROJECTS -->
-    <section class="project py-5" id="project">
+    <section class="project section-padding" id="project">
         <div class="container">
             <div class="row">
                 <div class="col-lg-11 text-center mx-auto col-12">
@@ -156,7 +155,7 @@
 
 
     <!-- FEATURES -->
-    <section class="resume py-5 d-lg-flex justify-content-center align-items-center" id="resume">
+    <section class="resume section-padding" id="resume">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-12">
@@ -173,7 +172,7 @@
                         </div>
                         <div class="timeline-wrapper">
                             <div class="timeline-yr">
-                                <span>2026</span>
+                                <span>2025</span>
                             </div>
                             <div class="timeline-info">
                                 <h3><span> Visiting PhD Student </span></h3>
@@ -264,12 +263,16 @@
     </section>
 
 <!-- Publications -->
-    <section class="resume py-5 d-lg-flex justify-content-center align-items-center">
+    <section class="resume section-padding" id="publications">
         <div class="container">
-            <div class="resume py-5 d-lg-flex justify-content-center align-items-center mx-auto" id="publications">
-                <h2>Publications</h2>
+            <div class="row">
+                <div class="col-lg-10 col-12 mx-auto">
+                    <h2 class="mb-4">Publications</h2>
+
+                    <div class="timeline" id="publications_list"></div>
+
+                </div>
             </div>
-            <div class="row justify-content-center align-items-center" id="publications_list"></div>
         </div>
     </section>
 
@@ -277,23 +280,19 @@
     <script src="js/load_publications.js"></script>
 
     <!-- CONTACT -->
-    <section class="contact py-5" id="contact">
+    <section class="contact section-padding" id="contact">
         <div class="container">
             <div class="row">
                 <div class="col-lg-5 mr-lg-5 col-12">
                     <div class="google-map w-100">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d101303.38032095264!2d14.994945739490765!3d37.49068241628113!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1313e2dd761525b5%3A0x58fe876151c83cf0!2sCatania%20CT!5e0!3m2!1sit!2sit!4v1738512936139!5m2!1sit!2sit" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+                        <iframe src="https://maps.google.com/maps?q=Leuven,%20Belgium&t=&z=13&ie=UTF8&iwloc=&output=embed" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
                     </div>
-                    <div class="contact-info d-flex justify-content-between align-items-center py-4 px-lg-5">
-                        <div class="contact-info-item">
-                            <!-- <h3 class="mb-3 text-white">Say hello</h3> -->
-                            <p><a href="mailto:elio.vinciguerra@phd.unict.it">elio.vinciguerra@phd.unict.it</a></p>
-                        </div>
-                        <ul class="social-links">
-                            <li><a href="https://www.linkedin.com/in/eliovinciguerra" class="fa-brands fa-linkedin-in" data-placement="left" title="Linkedin"></a></li>
-                            <li><a href="https://www.instagram.com/simply.elio" class="fa-brands fa-instagram" data-toggle="tooltip" data-placement="left" title="Instagram"></a></li>
-                            <li><a href="https://github.com/eliovinciguerra" class="fa-brands fa-github" data-toggle="tooltip" data-placement="left" title="Github"></a></li>
-                            <li><a href="https://orcid.org/0009-0008-2789-8849"  class="fa-brands fa-orcid" data-toggle="tooltip" data-placement="left" title="ORCID"></a></li>
+                    <div class="contact-info d-flex justify-content-center align-items-center py-4 px-lg-5">
+                        <ul class="social-links d-flex list-unstyled m-0 p-0">
+                            <li class="mx-3"><a href="https://www.linkedin.com/in/eliovinciguerra" class="fa-brands fa-linkedin-in" style="font-size: 20px;" data-toggle="tooltip" data-placement="top" title="Linkedin"></a></li>
+                            <li class="mx-3"><a href="https://www.instagram.com/simply.elio" class="fa-brands fa-instagram" style="font-size: 20px;" data-toggle="tooltip" data-placement="top" title="Instagram"></a></li>
+                            <li class="mx-3"><a href="https://github.com/eliovinciguerra" class="fa-brands fa-github" style="font-size: 20px;" data-toggle="tooltip" data-placement="top" title="Github"></a></li>
+                            <li class="mx-3"><a href="https://orcid.org/0009-0008-2789-8849" class="fa-brands fa-orcid" style="font-size: 20px;" data-toggle="tooltip" data-placement="top" title="ORCID"></a></li>
                         </ul>
                     </div>
                 </div>
