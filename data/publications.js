@@ -1,15 +1,27 @@
 const publications = [
   {
+    year: 2027,
+    title: "Computational Network-on-Chip for Accelerating LLM Inference",
+    reference: 'E. Vinciguerra, X. Jiang, M. Palesi, and Z. Lu, “Computational Network-on-Chip for Accelerating LLM Inference” (Accepted at Design, Automation and Test in Europe (DATE) Conference 2027).',
+    status: "to be presented"
+  },
+  {
+    year: 2026,
+    title: "Resource-Efficient Deployment of Deep Reinforcement Learning-based MAC Protocols in Industrial IoT Devices",
+    reference: 'L. Miuccio, S. Riolo, E. Russo, E. Vinciguerra, G. Ascia, M. Palesi, and D. Panno. 2026. “Resource-Efficient Deployment of Deep Reinforcement Learning-based MAC Protocols in Industrial IoT Devices”. ACM Transaction on Internet of Things Just Accepted (November 2026). https://doi.org/10.1145/3859282',
+    status: "",
+  },
+  {
     year: 2026,
     title: "SPACE: Safety-critical Performance-counter Adaptive Control Engine for Anomaly Mitigation via Deep Reinforcement Learning",
-    reference: 'E. Vinciguerra, N. Nosrati, G. Ascia, M. Palesi, and A. Hemani, "SPACE: Safety-critical Performance-counter Adaptive Control Engine for Anomaly Mitigation via Deep Reinforcement Learning," in IEEE Transactions on Very Large Scale Integration (VLSI) Systems, 2026, doi: 10.1109/TVLSI.2026.3722739.',
-    status: ""
+    reference: 'E. Vinciguerra, N. Nosrati, G. Ascia, M. Palesi, and A. Hemani, “SPACE: Safety-critical Performance-counter Adaptive Control Engine for Anomaly Mitigation via Deep Reinforcement Learning,” in IEEE Transactions on Very Large Scale Integration (VLSI) Systems, 2026, doi: 10.1109/TVLSI.2026.3722739.',
+    status: "",
   },
   {
     year: 2026,
     title: "COSMA: Communication aware Optimization of Fermionic Simulation Kernels for Modular Quantum Architectures",
-    reference: 'E. Russo, F. G. Blanco, E. Vinciguerra, D. Patti, G. Ascia and M. Palesi, "COSMA: Communication aware Optimization of Fermionic Simulation Kernels for Modular Quantum Architectures" (Accepted in IEEE Quantum Week – the IEEE International Conference on Quantum Computing and Engineering (QCE), September 2026). Also available: arXiv: arXiv:2607.09381. [Online, Submitted on 10 July 2026]. Available: https://doi.org/10.48550/arXiv.2607.09381.',
-    status: "to be presented",
+    reference: 'E. Russo, F. G. Blanco, E. Vinciguerra, D. Patti, G. Ascia and M. Palesi, “COSMA: Communication aware Optimization of Fermionic Simulation Kernels for Modular Quantum Architectures,” presented at IEEE International Conference on Quantum Computing and Engineering (QCE), Sept. 2026. arXiv: 2607.09381. [Online]. Available: https://doi.org/10.48550/arXiv.2607.09381.',
+    status: "best paper award",
   },
   {
     year: 2026,
